@@ -2,6 +2,7 @@ import Value from '../Components/Value';
 import Adder from '../Components/Adder';
 import Temperature from '../Components/Temperature';
 import Timer from '../Components/Timer';
+import cat from './cat.png';
 
 const Components = ({ counter, setCounter }) => {
   return (
@@ -12,7 +13,7 @@ const Components = ({ counter, setCounter }) => {
         margin: "20px auto",
         padding: "20px",
         borderRadius: "20px",
-        backgroundImage: "url('src/pages/cat.png')", // ใส่ภาพพื้นหลังตามต้องการ
+        backgroundImage: `url(${cat})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         boxShadow: "0 0 10px rgba(0,0,0,0.3)",

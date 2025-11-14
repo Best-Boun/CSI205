@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import Basketball from './Basketball.png';
+import Football from './football.jpg';
+import Voleyball from './V.jpg';
+import Cartoon from './cat.png';
+import Human from './man.jpg';
+import Logo from './good.png';
+import Wood from './wood.jpg';
 
 
 
@@ -59,22 +65,22 @@ const Animation = () => {
     ballRef.current.style.backgroundColor = "cyan";
     break;
   case "Basketball":
-    ballRef.current.style.backgroundImage = "url('src/pages/Basketball.png')";
+    ballRef.current.style.backgroundImage = `url(${Basketball})`;
     break;
   case "Football":
-    ballRef.current.style.backgroundImage = "url('src/pages/football.jpg')";
+    ballRef.current.style.backgroundImage = `url(${Football})`;
     break;
   case "Voleyball":
-    ballRef.current.style.backgroundImage = "url('src/pages/V.jpg')";
+    ballRef.current.style.backgroundImage = `url(${Voleyball})`;
     break;
   case "Cartoon":
-    ballRef.current.style.backgroundImage = "url('src/pages/cat.png')";
+    ballRef.current.style.backgroundImage = `url(${Cartoon})`;
     break;
   case "Human":
-    ballRef.current.style.backgroundImage = "url('src/pages/man.jpg')";
+    ballRef.current.style.backgroundImage = `url(${Human})`;
     break;
   case "Logo":
-    ballRef.current.style.backgroundImage = "url('src/pages/good.png')";
+    ballRef.current.style.backgroundImage = `url(${Logo})`;
     break;
   default:
     ballRef.current.style.backgroundImage = "none";
@@ -107,7 +113,7 @@ const Animation = () => {
           height: fieldHeight + "px",
           border: "2px solid black",
           borderRadius: "15px",
-          backgroundImage: "url('src/pages/wood.jpg)",
+          backgroundImage: `url(${Wood})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           position: "relative",
