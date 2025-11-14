@@ -33,10 +33,10 @@ if(token === ''){
 
 return (
 
-  <BrowserRouter basename='/CSI205'>
-    {/* เรียกใช้งาน AppHeader และ AppNavbar */}
+  <BrowserRouter basename='/csi205'>
+    
    
-    {/* การตั้งค่า Routing */}
+    
     <Routes>
       <Route path="/" element={<AppLayout products={products} carts={carts} setToken={setToken}/>}>
         <Route path="home" element={<Home counter={counter} setCounter={setCounter}/>} />
