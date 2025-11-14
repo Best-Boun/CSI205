@@ -59,7 +59,7 @@ const Animation = () => {
       ballRef.current.style.left = x + "px";
       ballRef.current.style.top = y + "px";
 
-  switch (selectedButton) {
+ switch (selectedButton) {
   case "None":
     ballRef.current.style.backgroundImage = "none";
     ballRef.current.style.backgroundColor = "cyan";
