@@ -45,7 +45,7 @@ const Temperatures = () => {
           </div>
           <Value
             name={"Celsius"}
-            Value={celsius}
+            value={celsius} 
             setValue={setCelsius}
             type={"real"}
           />
@@ -58,7 +58,7 @@ const Temperatures = () => {
           </div>
           <Value
             name={"Fahrenheit"}
-            Value={fahrenheit}
+            value={fahrenheit}
             setValue={setFahrenheit}
             type={"real"}
           />
@@ -71,7 +71,7 @@ const Temperatures = () => {
           </div>
           <Value
             name={"Kelvin"}
-            Value={kelvin}
+            value={kelvin}
             setValue={setKelvin}
             type={"real"}
           />
